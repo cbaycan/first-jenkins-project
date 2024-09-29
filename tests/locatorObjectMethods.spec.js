@@ -14,6 +14,7 @@ test.describe('Test Group', () => {
 
     let checkBox1 = page.locator("#box1");
 
+    
     await checkBox1.check();
 
   });
